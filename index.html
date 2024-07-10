@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jiggerpascua</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/2e6a960b1a.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel = "icon" href = "https://banner2.cleanpng.com/20180409/xjw/kisspng-emoji-firearm-pistol-weapon-handgun-hand-gun-5acbeb9a571782.3250293215233135623567.jpg" type = "x-icon">
+</head>
+
+
+
+	<script>
+    function play() {
+        var audio = document.getElementById('audio');
+        if (audio.paused) {
+            audio.play();
+            $('#play').removeClass('glyphicon-play-circle')
+            $('#play').addClass('glyphicon-pause')
+        }else{
+            audio.pause();
+            audio.currentTime = 0
+            $('#play').addClass('glyphicon-play-circle')
+            $('#play').removeClass('glyphicon-pause')
+        }
+    }
+</script>
+
+	<main>
+		<div class="card">
+			
+
+			<div class="card1">
+				
+
+				<img src="jigger.jpg" alt="Picture">
+
+					<div class="profilet">
+						<body>
+							<body>
+								<button id="myButton" onclick="coverScreen()">Click Me!</button>
+								<audio id="myAudio">
+								  <source src="loose low.MP3" type="audio/mpeg">
+								  Your browser does not support the audio element.
+								</audio>
+							</body>
+							<script src="script.js"></script>
+							<span class="br"></span>		
+						<h1 style="font-family: 'Roboto', sans-serif;">jiggerpascua</h1>
+							<span class="br"></span>
+							<span class="br"></span>
+							<hr color="#c4c4c4">
+							<span class="br"></span>
+							<span class="br"></span>
+							<span class="br"></span>
+						<div class="socmed">
+								<a href="https://www.facebook.com/profile.php?id=100015007179487"><i class="fa-brands fa-facebook"></i></a>
+								<a href="https://open.spotify.com/user/21pnd7kxcielsa7mcbsla7zma"><i class="fa-brands fa-spotify"></i></a>
+								<a href="https://www.instagram.com/jiggerpascua/"><i class="fa-brands fa-instagram"></i></a>
+					</div>
+
+			</div>
+		</div>		
+		
+	</main>
+
+</body>
+</html>
